@@ -1,11 +1,12 @@
 import openai
 import os
+import config
 from weather import temp
 from weather import humid
 from weather import wind
 
 #class open():
-openai.api_key = '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'
+openai.api_key = config.open_api_key
 question = f'기온은 {temp}이고, 습도는 {humid}이고, 풍속은 {wind}일 때 뭐먹을지 추천해줘'
 
 completion = openai.ChatCompletion.create(

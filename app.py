@@ -11,7 +11,7 @@ Builder.load_file(join(dirname(__file__), kv_file))
 
 class RootLayout(FloatLayout):
     def button01_clicked(self):
-        self.sid.text = result
+        self.sid.text = 'Clicked'
 
 
 class MainApp(App):

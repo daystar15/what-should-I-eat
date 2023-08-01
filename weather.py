@@ -19,4 +19,4 @@ humid = humid_list[1]
 wind_list = all_info[2].text.split()
 wind = wind_list[1]
 
-#print(f'기온은 {temp}이고, 습도는 {humid}이고, 풍속은 {wind}일 때 뭐먹을지 추천해줘')
+print(f'기온은 {temp}이고, 습도는 {humid}이고, 풍속은 {wind}일 때 뭐먹을지 추천해줘')
