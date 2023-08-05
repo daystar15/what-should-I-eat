@@ -13,6 +13,8 @@ visual studio code, python
 ## 개발문서
 * ppt
 
+  <https://www.miricanvas.com/v/12aj7jc>
+
 * 시연영상
 
   <https://www.youtube.com/watch?v=vOPF8Kixgak>
